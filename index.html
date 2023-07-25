@@ -29,9 +29,9 @@
   <body class="font-lato">
     <header>
       <div class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 ">
-        <div class="navbar bg-[#F85559] rounded-full px-10">
+        <div class="navbar bg-[#F85559] md:rounded-full px-10">
           <div class="navbar-start">
-            <div class="dropdown flex gap-7 text-white">
+            <div class="dropdown md:flex gap-7 text-white">
               <a class="hover:bg-yellow-400" href="">Home</a>
               <a class="hover:bg-yellow-400" href="">About Us</a>
               <a class="hover:bg-yellow-400" href="">Shop</a>
@@ -60,9 +60,9 @@
     <!-- banner section -->
     <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 my-10 ">
       <div class="carousel w-full">
-        <div id="slide1" class="carousel-item relative w-full flex justify-center items-center text-cyan-50" style="background-image: url(./images/banner1.png);">
+        <div id="slide1" class="carousel-item relative w-full flex justify-center items-center text-cyan-50 bg-no-repeat bg-center bg-cover " style="background-image: url(./images/banner1.png);">
           <div class="text-center">
-            <h1 class="text-5xl font-bold my-3">Exotic tastes at your <br> doorstep</h1>
+            <h1 class="md:text-5xl text-3xl font-bold my-3">Exotic tastes at your <br> doorstep</h1>
             <p>We supply highly quality organic products</p>
             <button class="bg-[#F85559] p-2 my-3">Shop Now</button>
           </div>
@@ -72,9 +72,9 @@
           </div>
 
         </div> 
-        <div id="slide2" class="carousel-item relative w-full flex justify-center items-center text-cyan-50" style=" background-image: url(./images/banner2.png);">
+        <div id="slide2" class="carousel-item relative w-full flex justify-center items-center text-cyan-50 bg-no-repeat bg-center bg-cover " style=" background-image: url(./images/banner2.png);">
           <div class="text-center">
-            <h1 class="text-5xl font-bold my-3">Exotic tastes at your <br> doorstep</h1>
+            <h1 class="md:text-5xl text-3xl font-bold my-3">Exotic tastes at your <br> doorstep</h1>
             <p>We supply highly quality organic products</p>
             <button class="bg-[#F85559] p-2 my-3">Shop Now</button>
           </div>  
@@ -83,9 +83,9 @@
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div> 
-        <div id="slide3" class="carousel-item relative w-full flex justify-center items-center text-cyan-50" style=" background-image: url(./images/banner3.png);" >
+        <div id="slide3" class="carousel-item relative w-full flex justify-center items-center text-cyan-50 bg-no-repeat bg-center bg-cover " style=" background-image: url(./images/banner3.png);" >
           <div class="text-center">
-            <h1 class="text-5xl font-bold my-3">Exotic tastes at your <br> doorstep</h1>
+            <h1 class="md:text-5xl text-3xl font-bold my-3">Exotic tastes at your <br> doorstep</h1>
             <p>We supply highly quality organic products</p>
             <button class="bg-[#F85559] p-2 my-3">Shop Now</button>
           </div>   
@@ -94,7 +94,7 @@
             <a href="#slide4" class="btn btn-circle">❯</a>
           </div>
         </div> 
-        <div id="slide4" class="carousel-item relative w-full  flex justify-center items-center text-cyan-50" style=" background-image: url(./images/banner4.png);">
+        <div id="slide4" class="carousel-item relative w-full  flex justify-center items-center text-cyan-50 bg-no-repeat bg-center bg-cover " style=" background-image: url(./images/banner4.png);">
           <img src="./images/banner4.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle">❮</a> 
@@ -222,20 +222,66 @@
           </div>
         </div>
       </div>
+      <div class="text-center mt-5">
+        <button class="bg-[#F85559] p-3 rounded-2xl ">Shop All</button>
+      </div>
     </section>
   </body>
   <!-- Meet the team section -->
   <main class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
-    <section  
+    <section class="bg-no-repeat bg-cover "
     style="background-image: url(./images/banner1.png);">
-      <div>
-        <h1 >Meet the team section</h1>
-        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+      <div class="text-center text-white pt-16">
+        <h1 class="p-3 text-4xl font-bold">Meet the team section</h1>
+        <p class="pb-4"> Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
-      <div>
-
+      <div class="text-white flex justify-center gap-14 pt-4">
+        <div class="text-center items-center">
+          <img class="w-[80%]" src="./images/member1.png" alt="" width="full">
+          <h1>Awlad Hossain</h1>
+          <p>Fruits Expert</p>
+          <div class="flex justify-center gap-3 pb-16">
+            <a href=""><img class= "w-5" src="./images/facebook.png" alt=""></a>
+            <a href=""><img class= "w-5" src="./images/twiter.png" alt=""></a>
+            <a href=""><img class= "w-5" src="./images/youtube.png" alt=""></a>
+          </div>
+          
+        </div>
+        <div class="text-center">
+          <img class="w-[80%]" src="./images/member2.png" alt="">
+          <h1>Safia Chowdhury</h1>
+          <p>Fruits Expert</p>
+          <div class="flex justify-center gap-3 pb-3">
+            <a href=""><img class= "w-5" src="./images/facebook.png" alt=""></a>
+            <a href=""><img class= "w-5" src="./images/twiter.png" alt=""></a>
+            <a href=""><img class= "w-5" src="./images/youtube.png" alt=""></a>
+          </div>
+        </div>
+        <div class="text-center">
+          <img class="w-[80%]" src="./images/member3.png" alt="">
+          <h1>Rokib Hossain</h1>
+          <p>Fruits Expert</p>
+          <div class="flex justify-center gap-3 pb-3">
+            <a href=""><img class= "w-5" src="./images/facebook.png" alt=""></a>
+            <a href=""><img class= "w-5" src="./images/twiter.png" alt=""></a>
+            <a href=""><img class= "w-5" src="./images/youtube.png" alt=""></a>
+          </div>
+        </div>
+        <div class="text-center">
+          <img class="w-[80%]" src="./images/member4.png" alt="">
+          <h1>Chaity</h1>
+          <p>Fruits Expert</p>
+            <div class="flex justify-center gap-3 pb-3">
+            <a href=""><img class= "w-5" src="./images/facebook.png" alt=""></a>
+            <a href=""><img class= "w-5" src="./images/twiter.png" alt=""></a>
+            <a href=""><img class= "w-5" src="./images/youtube.png" alt=""></a>
+          </div>
+        </div>
       </div>
     </section>
+    <!-- Why Choose Us -->
   </main>
-  <footer></footer>
+  <footer>
+
+  </footer>
 </html>

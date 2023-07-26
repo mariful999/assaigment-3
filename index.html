@@ -40,12 +40,17 @@
             <h1 class="text-3xl font-bold">Fruit Burst</h1>
           </div>
           <div class="navbar-end">
-            <div class=" flex-none gap-2">
-              <div class="form-control">
-                <input
-                  type="text"
-                  placeholder="Search Here"
-                  class=" rounded-2xl px-2 py-1 input-bordered w-10 md:w-[300px]" />
+            <div class=" md:flex-none gap-2">
+              <div class="flex relative">
+                <div class="form-control">
+                  <input
+                    type="text"
+                    placeholder="Search Here"
+                    class=" rounded-2xl px-2 py-1 input-bordered w-10 md:w-[300px]" />
+                </div>
+                <div> <a href><img
+                      class="w-7 rounded-2xl bg-white absolute right-2"
+                      src="./images/search.jpg" alt></a></div>
               </div>
             </div>
           </button>
@@ -117,7 +122,8 @@
   <!-- position section -->
   <section
     class="max-w-[1100px] mx-auto px-8 md:px-16 lg:px-24 py-5 relative">
-    <div class="flex justify-around  bg-white gap-4 p-8 m-4 items-center rounded-sm absolute top-[-120px] ">
+    <div
+      class="flex justify-around  bg-white gap-4 p-8 m-4 items-center rounded-sm absolute top-[-120px] ">
       <div class="text-center">
         <img src="./images/fruit1.png" alt>
         <p>Strawberry</p>
